@@ -66,8 +66,8 @@ li {
   background: var(--primary-text-color);
   display: block;
   position: absolute;
-  top: 22px;
-  left: 23px;
+  top: 76px;
+  left: 1294px;
 }
 .header nav a:hover {
   color: var(--primary-text-color);
