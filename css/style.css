@@ -54,7 +54,7 @@ li {
   font-weight: 600; /*semi bold*/
   color: var(--primary-text-color);
 }
-.header nav a.active:after {
+.header nav a.active::after {
   content: "";
   width: 12px;
   height: 2px;
@@ -66,8 +66,8 @@ li {
   background: var(--primary-text-color);
   display: block;
   position: absolute;
-  top: 67px;
-  left: 1150px;
+  top: 22px;
+  left: 23px;
 }
 .header nav a:hover {
   color: var(--primary-text-color);
@@ -77,8 +77,8 @@ li {
   width: 144px;
   /* height: 50px; */
   line-height: 50px;
-  background: var(--background-color);
-  color: var(--primary-text-color);
+  background: var(--primary-text-color);
+  color: var(--background-color);
   border-radius: 24.5px;
   -webkit-border-radius: 24.5px;
   -moz-border-radius: 24.5px;
